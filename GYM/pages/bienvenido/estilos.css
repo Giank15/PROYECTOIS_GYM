@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.inicio{
+  background-color:#DE5617;
+  padding: 40px;
+
+}
+.img1{
+  position: absolute;
+  top: 17px;
+  left: 200px;
+}
+.img2{
+  position: absolute;
+  top: 23px;
+  left: 250px;
+}
+img.mediana{
+  width: auto;
+  max-height: 50px;
+}
+.img3{
+  position: absolute;
+  top: 15px;
+  left: 1020px;
+}
+
+.btn-n0 {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #FBFFF1;
+  background-color: #DE5617;
+  border:solid 5px #DE5617;
+  border-radius: 15px;
+  position: absolute;
+  left:   900px;
+  top:    22px;
+}
+
+.btn-n0:hover {background-color: #DE5617}
+
+.btn-n0:active {
+  background-color: #DE5617;
+  transform: translateY(4px);
+}
+.contenedor h1{
+  align-items: center;
+  color: #DE5617;
+  padding: 10px;
+}
+.contenedor-fila th{
+  align-items: center;
+  color: rgba(0, 0, 0, 0.976);
+}
+.btn-n1{
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 50px;
+    position: absolute;
+
+}
+.btn-n1:hover {background-color: #DE5617}
+
+.btn-n1:active {
+  background-color: #DE5617;
+  transform: translateY(4px);
+}
+.btn-n2{
+  text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 50px;
+    position: absolute;
+
+}
+.btn-n2:hover {background-color: #DE5617}
+
+.btn-n2:active {
+  background-color: #DE5617;
+  transform: translateY(4px);
+}
+.btn-n3{
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #FBFFF1;
+  background-color: #DE5617;
+  border:solid 5px #DE5617;
+  border-radius: 50px;
+  position: absolute;
+}
+.btn-n3:hover {background-color: #DE5617}
+
+  .btn-n3:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+.contenedor h1, h2{
+  text-align-last:center;
+  }
+
+.contenedor-imagen {
+  display: flex;
+  justify-content: center;
+  margin-left: 1cm;
+  margin-top: 1cm;
+  bottom: btn-block ;
+  
+}
+.im{
+  padding:10px;
+}
+.ime{
+  padding: 10px;
+}
+
+.imee{
+  padding: 10px;
+}
+.btn-n1{
+  padding: 5px;
+  align-items: center;
+  border-radius: 40px;
+  position: absolute;
+  width:   105px;
+  margin-left: 1cm;
+  margin-top: 1cm;
+}
+.btn-n2{
+  padding: 5px;
+  align-items: center;
+  border-radius: 40px;
+  position: absolute;
+  width:   105px;
+  margin-left: 1cm;
+  margin-top: 1cm;
+}
+.btn-n3{
+  padding: 5px;
+  align-items: center;
+  border-radius: 40px;
+  position: absolute;
+  width:   105px;
+  margin-left: 1cm;
+  margin-top: 1cm;
+}
