@@ -32,7 +32,7 @@ document.querySelector('#app').innerHTML = `
          <div class="imee">
          <img src="../../images/MenuEmpleado (1).png" alt="imagen no encontrada" width="200px">
          <h3 >Asignar Horarios Caschs</h3>
-         <button class="btn-n3" k >ASIGNAR</button> 
+         <button class="btn-n3">ASIGNAR</button> 
          </div>
      </div>
   </div>
@@ -48,5 +48,19 @@ let boton2 = document.querySelectorAll('.btn-n1');
 boton2.forEach(boton => {
   boton.addEventListener('click', ()=>{
     window.location.href = "../clienteFijo/clienteFijo.html";
+  })  
+})
+
+let boton3 = document.querySelectorAll('.btn-n2');
+boton3.forEach(boton => {
+  boton.addEventListener('click', ()=>{
+    window.location.href = "../clienteEventual/clientee.html";
+  })  
+})
+
+let boton4 = document.querySelectorAll('.btn-n3');
+boton4.forEach(boton => {
+  boton.addEventListener('click', ()=>{
+    window.location.href = "../asignarHorario/asignacion.html";
   })  
 })

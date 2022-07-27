@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.inicio{
+    background-color:#DE5617;
+    padding: 40px;
+ 
+ }
+ .img1{
+    position: absolute;
+    top: 17px;
+    left: 200px;
+ }
+ .img2{
+    position: absolute;
+    top: 23px;
+    left: 250px;
+ }
+ img.mediana{
+    width: auto;
+    max-height: 50px;
+ }
+ .img3{
+    position: absolute;
+    top: 15px;
+    left: 1220px;
+ }
+ .btn-n0 {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 15px;
+    position: absolute;
+    left:   1100px;
+    top:    22px;
+  }
+  
+  .btn-n0:hover {background-color: #DE5617}
+
+  .btn-n0:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+  .btn-n1 {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 15px;
+    position: absolute;
+    left:   380px;
+    top:    525px;
+  }
+  
+  .btn-n1:hover {background-color: #DE5617}
+
+  .btn-n1:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+  .btn-n2 {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 15px;
+    position: absolute;
+    left:   755px;
+    top:    525px;
+  }
+  
+  .btn-n2:hover {background-color: #DE5617}
+
+  .btn-n2:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+ 
+#realizar{
+    color: #DE5617;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+form{
+    width: 800px;
+    position: relative;
+    top:60px ;
+    margin: 0 auto;
+    background-color: #f5aa6d;
+    font-weight: bold;
+    padding: 70px;
+    border-radius: 10px;
+    height: 270px;
+}
+input{
+    border-radius: 25px;
+
+}
+.field{
+    border:solid 2px #DE5617;
+    padding: 8px;
+    width: 280px;
+}
+
+.f1{
+  padding: 5px;
+  position: absolute;
+  right:   50%;
+  bottom: 60%;
+  height: 27%;
+  left: 10%;
+}
+
+.f2{
+    padding: 5px;
+    position: absolute;
+    left:   50%;
+    width:  20%;
+    bottom: 60%;
+    height: 27%;  
+}
+
+
+.fields{
+    border:solid 2px #DE5617;
+    padding: 8px;
+    width: 280px;  
+    
+}

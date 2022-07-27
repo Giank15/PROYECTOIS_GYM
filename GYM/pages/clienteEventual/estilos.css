@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.inicio{
+    background-color:#DE5617;
+    padding: 40px;
+ 
+ }
+ .img1{
+    position: absolute;
+    top: 17px;
+    left: 200px;
+ }
+ .img2{
+    position: absolute;
+    top: 23px;
+    left: 250px;
+ }
+ img.mediana{
+    width: auto;
+    max-height: 50px;
+ }
+ .img3{
+    position: absolute;
+    top: 15px;
+    left: 1020px;
+ }
+ .btn-n0 {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 15px;
+    position: absolute;
+    left:   900px;
+    top:    22px;
+  }
+  
+  .btn-n0:hover {background-color: #DE5617}
+
+  .btn-n0:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+  .btn-n1 {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 15px;
+    position: relative;
+    left:   70%;
+  }
+  
+  .btn-n1:hover {background-color: #DE5617}
+
+  .btn-n1:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+  .btn-n2 {
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 15px;
+    position: absolute;
+    left:   80%;
+    top:    90%;
+    cursor: pointer;
+  }
+  
+  .btn-n2:hover {background-color: #DE5617}
+
+  .btn-n2:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+ 
+#realizar{
+    color: #DE5617;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+form{
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top:60px ;
+    margin: 0 auto;
+    background-color: #f5aa6d;
+    font-weight: bold;
+    padding: 80px;
+    border-radius: 10px;
+}
+input{
+    border-radius: 25px;
+
+}
+.field{
+    border:solid 2px #DE5617;
+    padding: 8px;
+    width: 280px;
+}
+
+.f{
+    padding: 5px;
+    position: absolute;
+    left:   50%;
+    width:  20%;
+    bottom: 51%;
+    height: 34%;  
+}
+
+.t{
+    padding: 5px;
+    position: absolute;
+    left:   50%;
+    width:  30%;
+    top: 40%;
+    bottom: 30%;
+    height: 20%; 
+}
+.checkbox{
+    position: absolute;
+    left:   38%;
+    top:    50%;
+     
+}
+.debito{
+    position: absolute;
+    left:   54%;
+    top:    50%;
+    
+     
+}
+#img4{
+    position: absolute;
+    left:   60%;
+    top:    50%;
+}
+.check{
+    position: absolute;
+    left:   38%;
+    top:    58%;
+}
+.credito{
+    position: absolute;
+    left:   54%;
+    top:    58%;
+}
+#img5{
+    position: absolute;
+    left:   60%;
+    top:    58%;
+}
+.n{
+    padding: 5px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+}
+.coach{
+    
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    left:   8px;
+    top:    10px;
+    
+}
+.fields{
+    border:solid 2px #DE5617;
+    padding: 8px;
+    width: 280px;  
+    
+}
+
+.modal{
+    position: absolute;
+    top: 310px;
+    left: 500px;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-modal:checked ~ .modal{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor{
+    width: 290px;
+    height: 180px;
+    margin: 20px;
+    background: #FBFFF1;
+    box-shadow: 10px 10px 10px  rgba(0,0,0,0.6);
+    transition: all 500ms ease;
+    position:relative;
+    transform:translateY(-20%);
+    border-radius: 20px;
+
+}
+#btn-modal:checked ~ .modal.contenedor{
+    transform: translateY(0%);
+}
+
+.contenedor header{
+    border-radius: 20px;
+    background:#FBFFF1;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top:85px;
+    left: 1px;
+    
+    
+}
+.contenedor label{
+    position: absolute;
+    top: 120px;
+    right: 33px;
+    color:#FBFFF1;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #DE5617;
+    border-radius: 35px;
+    font-family: arial;
+    padding: 12px 70px;
+}
+#btn-modal{
+    display: none;
+}
+.lbl-modal{
+   
+    padding: 5px;
+    font-size: 18px;
+    font-family: arial;
+    text-align: center;
+    cursor: pointer;
+    color: #FBFFF1;
+    background-color: #DE5617;
+    border:solid 5px #DE5617;
+    border-radius: 15px;
+    position: absolute;
+    left:   38%;
+    top:    110%;
+}
+.lbl-modal:hover {background-color: #DE5617}
+
+  .lbl-modal:active {
+    background-color: #DE5617;
+    transform: translateY(4px);
+  }
+
+.visto{
+    position: fixed;
+    top: 5px;
+    left: 110px;
+}
+
+
+
